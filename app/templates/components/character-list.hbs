@@ -1,0 +1,7 @@
+<h2>{{title}}</h2>
+
+<ul>
+  {{#each characters as |character|}}
+    <li {{action "showCharacter" character}}>{{character}}</li>
+  {{/each}}
+</ul>
